@@ -1,0 +1,91 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    background-color: rgb(116, 102, 199);
+    background-image: url(https://images.unsplash.com/photo-1627634777217-c864268db30c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    color: rgb(227, 221, 240);
+    margin: 2% 20%;
+    text-shadow: 1px 1px black;
+}
+
+header h1 {
+    margin: 4px;
+}
+
+header p {
+    font-weight: 0;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 0;
+}
+
+div {
+    line-height: 1.5em;
+}
+
+span {
+    font-size: 14px;
+    font-style: italic;
+}
+
+form {
+    text-align: center;
+    margin: 0 20%;
+    padding: 52px 36px;
+    background-color: rgba(153, 168, 152, 0.767);
+    font-size: 22px;
+    border-radius: 6px;
+}
+
+input, button, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    font-style: italic;
+    line-height: inherit;
+    border-radius: 6px;
+}
+
+label {
+    display: block;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.form-element {
+    text-align: left;
+    margin-top: 16px;
+}
+
+.form-element label {
+    display: block;
+}
+
+.form-element-answer {
+    width: 95%;
+    height: 28px;
+}
+
+.submit {
+    border: none;
+    cursor: pointer;
+    width: 95%;
+    height: 32px;
+    background-color: rgb(255, 255, 0);
+    border-radius: 12px;
+}
+
+.submit:hover {
+    background-color: rgb(255, 255, 142);
+    font-style: bold;
+}

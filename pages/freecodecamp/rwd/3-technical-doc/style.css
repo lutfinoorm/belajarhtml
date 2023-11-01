@@ -1,0 +1,65 @@
+/* Reseter */
+
+h2 {
+    margin: 0;
+}
+
+/* Start Display */
+
+body {
+    width: 90%;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+}
+
+nav {
+    flex: 1;
+}
+
+main {
+    flex: 7;
+}
+
+/* End Display */
+
+.topics {
+    position: fixed;
+    left: 5%;
+}
+
+ul {
+    list-style: none;
+    padding: 0 3rem;
+    margin: 0;
+    position: relative;
+}
+
+ul p {
+    margin-top: 0;
+}
+
+li {
+    padding: 1rem 0;
+    border-top: 1px solid black;
+}
+
+section {
+    text-align: justify;
+    margin-bottom: 3rem;
+}
+
+footer {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    width: fit-content;
+}
+
+@media screen and (max-width: 900px){
+
+}
